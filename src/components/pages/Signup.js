@@ -7,7 +7,6 @@ import Form from "../Form";
 import Illustration from "../Illustration";
 import TextInput from "../TextInput";
 
-
 const Signup = () => {
   return (
     <div>

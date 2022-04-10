@@ -1,11 +1,11 @@
-import Quiz from '../components/pages/Quiz.js';
 import "../styles/App.css";
 import Layout from "./Layout";
+import Result from './pages/Result.js';
 
 const App = () => {
   return (
     <Layout>
-      <Quiz/>
+      <Result/>
     </Layout>
   );
 };
