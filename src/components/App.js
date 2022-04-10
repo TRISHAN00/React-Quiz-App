@@ -1,11 +1,11 @@
 import '../styles/App.css';
 import Layout from './Layout';
-import Signup from './pages/Signup';
+import Login from './Login';
 
 const App = () => {
   return (
     <Layout>
-        <Signup/>
+        <Login/>
     </Layout>
   );
 };
