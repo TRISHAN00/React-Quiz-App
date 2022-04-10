@@ -27,7 +27,7 @@ const Signup = () => {
             placeholder="Confirm password"
             icon="lock_clock"
           />
-          <Checkbox agree="I agree to the Terms &amp; Conditions" />
+          <Checkbox text="I agree to the Terms &amp; Conditions" />
           <Button>
             <span>Submit now</span>
           </Button>

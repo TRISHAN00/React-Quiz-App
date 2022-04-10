@@ -1,10 +1,10 @@
 import React from "react";
 
-const Checkbox = ({agree}) => {
+const Checkbox = ({className, text, ...rest}) => {
   return (
     <label>
-      <input type="checkbox" />
-      <span>{agree}</span>
+      <input className={className} type="checkbox" {...rest}/>
+      <span>{text}</span>
     </label>
   );
 };
