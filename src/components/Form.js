@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import classes from "../styles/Form.module.css";
 
-const Form = ({children, className, ...rest}) => {
-    return (
-        <form className={`${className} ...rest`}>
-            <h2>form</h2>
-        </form>
-    );
+const Form = ({ children, className, ...rest }) => {
+  return <form className={`${className} ${classes.form}`}>{children}</form>;
 };
 
 export default Form;
