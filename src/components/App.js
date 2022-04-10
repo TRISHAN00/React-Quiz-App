@@ -1,15 +1,13 @@
 import '../styles/App.css';
 import Layout from './Layout';
-import Login from './pages/Login';
+import Home from './pages/Home';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Layout>
-        <Login/>
-      </Layout>
-    </div>
+    <Layout>
+        <Home/>
+    </Layout>
   );
-}
+};
 
 export default App;
