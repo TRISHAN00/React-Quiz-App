@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import signupSvg from "../../assets/images/signup.svg";
 import classes from "../../styles/Signup.module.css";
 import Button from "../Button";
@@ -30,6 +31,9 @@ const Signup = () => {
           <Button>
             <span>Submit now</span>
           </Button>
+          <div className={classes.info}>
+              Already have an account? <Link to="/login">Login</Link> instead.
+            </div>
         </Form>
       </div>
     </div>
