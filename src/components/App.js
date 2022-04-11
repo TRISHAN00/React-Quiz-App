@@ -1,12 +1,17 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "../styles/App.css";
 import Layout from "./Layout";
-import Result from "./pages/Result.js";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <Layout>
-      <Result />
-    </Layout>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 };
 
