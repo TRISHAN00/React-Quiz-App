@@ -1,5 +1,5 @@
 import React from "react";
-import signupSvg from '../../assets/images/signup.svg';
+import signupSvg from "../../assets/images/signup.svg";
 import classes from "../../styles/Signup.module.css";
 import Button from "../Button";
 import Checkbox from "../Checkbox";
