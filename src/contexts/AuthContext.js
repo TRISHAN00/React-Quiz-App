@@ -25,7 +25,7 @@ export function AuthProvider({ children }) {
       setLoading(false)
     })
     return unsubscribe;
-  })
+  }, [])
 
   // signup function
   async function signup(email, password, username) {
